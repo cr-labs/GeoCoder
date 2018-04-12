@@ -83,7 +83,7 @@ public class DelaunayAp {
 		System.out.println("finding closest");
 //		System.out.println("1,0 "+dt.locate (new Pnt(1,0)));
 //		System.out.println("42,20 "+dt.locate (new Pnt(-42,20)));
-
+//
 		System.out.println("42,180");
 		Simplex <Pnt> s = dt.locate(new Pnt(42,180));
 		Simplex.moreInfo = true;
